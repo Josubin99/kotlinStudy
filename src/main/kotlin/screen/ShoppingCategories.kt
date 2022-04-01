@@ -1,5 +1,12 @@
 package screen
 
+import extenstion.getNotEmptyString
+
+/*
+ Step 10. 장바구니에 추가한 상품 관리
+ Step 11. 사용자 입력값 요청 처리 공동화
+ Step 12. 프로젝트 전역에서 참조하는 상수
+ */
 class ShoppingCategories {
     fun showCategories() {
         /*
@@ -14,13 +21,11 @@ class ShoppingCategories {
         }
         println("=> 장바구니로 이동하시려면 #을 입력해주세요");
 
-        var selectedCategory = readLine()
-        while (selectedCategory.isNullOrBlank()) {
-            println("값을 입력해주세요")
-            selectedCategory = readLine()
-        }
+        val selectedCategory = readLine().getNotEmptyString()
         if (selectedCategory == "#") {
             // TODO 1. 장바구니 이동
+            val shoppingCart = ShoppingCart()
+            shoppingCart.showCartItems()
         } else {
             if (categories.contains(selectedCategory)) {
                 // TODO 2. 카테고리 상품 목록 보여주기

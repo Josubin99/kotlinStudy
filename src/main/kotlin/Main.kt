@@ -9,5 +9,4 @@ Step 9. 선택한 카테고리 상품 목록 표시
 fun main(args: Array<String>) {
 val shoppingHome = ShoppingHome()
     shoppingHome.start()
-
 }
