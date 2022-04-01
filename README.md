@@ -28,3 +28,5 @@
 
 #### 14) [Scope Functions](https://grand-jumper-7af.notion.site/Scope-Functions-56fed77dc26342d6a7ac69f633aa347b)
 
+#### 15) [Enum, Sealed, Stack](https://grand-jumper-7af.notion.site/enum-sealed-Stack-446a3c25fa4e44f19557c4a5bc0e19b0)
+
