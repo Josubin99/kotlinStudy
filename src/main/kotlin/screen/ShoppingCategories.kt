@@ -2,13 +2,9 @@ package screen
 
 import extenstion.getNotEmptyString
 
-/*
- Step 10. 장바구니에 추가한 상품 관리
- Step 11. 사용자 입력값 요청 처리 공동화
- Step 12. 프로젝트 전역에서 참조하는 상수
- */
-class ShoppingCategories {
+class ShoppingCategories : Screen() {
     fun showCategories() {
+        ScreenStack.push(this)
         /*
         Step 4. 상품 카데고리 표기
         Step 5. 사용자 입력받기

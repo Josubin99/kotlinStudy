@@ -1,5 +1,7 @@
 package extenstion
-
+/*
+ Step 11. 사용자 입력값 요청 처리 공동화
+ */
 fun String?.getNotEmptyString(): String {
     var input = this
     while(input.isNullOrBlank()) {

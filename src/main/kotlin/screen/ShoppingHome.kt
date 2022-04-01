@@ -3,13 +3,14 @@ package screen
 import LINE_DIVIDER
 import extenstion.getNotEmptyString
 
-class ShoppingHome {
+class ShoppingHome : Screen() {
     fun start(){
         showWelcomeMessage()
         showCategories()
     }
 
     private fun showWelcomeMessage() {
+        ScreenStack.push(this)
         /*
         Step 1. 인사말 출력
         Step 2. 사용자 이름 받기
