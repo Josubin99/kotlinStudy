@@ -30,3 +30,4 @@
 
 #### 15) [Enum, Sealed, Stack](https://grand-jumper-7af.notion.site/enum-sealed-Stack-446a3c25fa4e44f19557c4a5bc0e19b0)
 
+#### 16) [by, lazy](https://grand-jumper-7af.notion.site/by-lazy-36b33148034741b7b5c485565b6d081b)
